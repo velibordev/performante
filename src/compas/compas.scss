@@ -1,0 +1,43 @@
+#compas {
+   width: 100px;
+   height: 100px;
+   border-radius: 100px;
+   background-color: transparent;
+   position: absolute;
+   top: 60px;
+   left: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid cyan;
+
+   #arrow {
+      transform: scale(.8);
+   }
+
+   .letter {
+      color: white;
+      font-weight: bold;
+      font-family: "Space Grotesk", sans-serif;
+
+      font-size: .8rem;
+      position: absolute;
+
+      &:nth-child(2) {
+         top: 5px !important;
+      }
+
+      &:nth-child(3) {
+         right: 5px !important;
+      }
+
+      &:nth-child(4) {
+         bottom: 5px !important;
+      }
+
+      &:nth-child(5) {
+         left: 5px !important;
+      }
+   }
+
+}

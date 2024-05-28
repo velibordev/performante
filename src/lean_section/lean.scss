@@ -1,0 +1,61 @@
+.lean {
+   background-color: transparent !important;
+   border: 2px solid white;
+   border-radius: 100px;
+   width: 150px;
+   height: 150px;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   left: 100px;
+   top: 110px;
+
+   p {
+      font-weight: bold;
+      text-align: center;
+      width: 100px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:nth-child(2) {
+         background-color: rgb(255, 255, 255);
+      }
+   }
+
+   h1 {
+      color: white;
+   }
+}
+
+.rapid_red {
+   animation: rapid_red .2s infinite;
+}
+
+@keyframes rapid_red {
+   0% {
+      opacity: 0;
+      background-color: #ed1d25 !important;
+      background: linear-gradient(to right, red 0%, red 0%, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
+   }
+
+   50% {
+      opacity: .5;
+      background-color: #ed1d25;
+      background: linear-gradient(to right, red 0%, red 0%, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
+
+   }
+
+   100% {
+      opacity: 1;
+      background-color: #ed1d25;
+      background: linear-gradient(to right, red 0%, red 0%, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
+
+   }
+}

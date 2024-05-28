@@ -1,0 +1,44 @@
+#opened_music {
+   width: 759px;
+   height: 381px;
+   background-color: rgb(0, 0, 0);
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#close_music {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+
+#music_btn {
+
+   width: 80px;
+}
+
+#music_number {
+   font-family: "Space Grotesk", sans-serif;
+   font-weight: bold;
+   text-align: center;
+   color: white !important;
+}
+
+.music_wrapper {
+   width: 320px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   button {
+      margin-top: 10px !important;
+
+      &:nth-child(odd) {
+         width: 200px !important;
+      }
+   }
+
+}

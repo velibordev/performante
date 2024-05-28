@@ -1,0 +1,51 @@
+@keyframes blue_blink {
+   0% {
+      background-color: black;
+   }
+
+   100% {
+      background-color: blue;
+   }
+}
+
+@keyframes red_blink {
+   0% {
+      background-color: rgb(255, 0, 0);
+   }
+
+   100% {
+      background-color: black;
+   }
+}
+
+.blinker_div {
+   width: 50px;
+   height: 100px;
+   background-color: black;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 99999999999999999999;
+   width: 759px;
+   height: 388px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: none;
+
+   div {
+      width: 50%;
+      height: 388px;
+   }
+
+   .red {
+      animation: red_blink .4s infinite;
+
+   }
+
+   .blue {
+      animation: blue_blink .4s infinite;
+   }
+}

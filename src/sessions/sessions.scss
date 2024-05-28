@@ -1,0 +1,51 @@
+#sessions {
+   font-family: "Space Grotesk", sans-serif;
+   font-weight: bold;
+   width: 130px;
+   padding: 10px;
+   background-color: transparent;
+   color: white;
+   border: 1px solid cyan;
+   border-radius: 50px;
+   margin-right: 5px;
+}
+
+.session_div {
+   width: 759px;
+   height: 388px;
+   background-color: black;
+   margin: 0;
+   position: absolute;
+   z-index: 9999999999999;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: block !important;
+   overflow-y: scroll;
+   display: none !important;
+
+   p {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 1px solid cyan;
+      width: 80%;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      span {
+         font-family: "Space Grotesk", sans-serif;
+         padding: 20px;
+         border-radius: 5px;
+         background-color: #1a1917;
+         width: 80%;
+         margin-top: 5px;
+         margin-bottom: 5px;
+      }
+   }
+}

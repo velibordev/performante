@@ -1,0 +1,17 @@
+#weather {
+   width: 90px;
+   height: 50px;
+   position: absolute;
+   left: 10px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+
+   p {
+      font-family: "Space Grotesk", sans-serif;
+      color: white;
+      font-size: .75rem;
+      font-weight: bold;
+   }
+}
